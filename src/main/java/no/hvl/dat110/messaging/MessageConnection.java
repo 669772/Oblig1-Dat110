@@ -53,7 +53,6 @@ public class MessageConnection {
 //			throw new UnsupportedOperationException(TODO.method());
 			
 		// TODO - END
-
 	}
 
 	public Message receive() {

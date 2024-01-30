@@ -29,7 +29,6 @@ public class MessageUtils {
 		
 		// encapulate/encode the payload data of the message and form a segment
 		// according to the segment format for the messaging layer
-		
 //		if (true)
 //			throw new UnsupportedOperationException(TODO.method());
 			
