@@ -20,7 +20,6 @@ public class RPCClient {
 		
 		// TODO - START
 		// connect using the RPC client
-		
 		if (true)
 			throw new UnsupportedOperationException(TODO.method());
 		
