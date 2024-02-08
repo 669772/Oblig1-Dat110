@@ -41,9 +41,8 @@ public class Controller  {
 		}
 		// read value from sensor using RPC and write to display using RPC
 		for(int i = 0; i < N; i++) {
-			int temp = sensor.read();
-			String tempstr = Integer.toString(temp);
-			display.write(tempstr);
+			int val = sensor.read();
+			display.write(String.valueOf(val));
 			
 
 				try {

@@ -22,9 +22,9 @@ public class DisplayImpl extends RPCRemoteImpl {
 		// TODO - START: 
 		// implement unmarshalling, call, and marshall for write RPC method
 		// look at how this is done in the SensorImpl class for the read method
-		RPCUtils.unmarshallInteger(param);
+		String a = RPCUtils.unmarshallString(param);
 		
-		write(param.toString());
+		write(a);
 		
 		returnval = RPCUtils.marshallVoid();
 				

@@ -49,13 +49,12 @@ public class RPCServer {
 		   // - extract the method's parameter by decapsulating using the RPCUtils
 		   byte[] req = RPCUtils.decapsulate(requestmsg.getData());
 		   // - lookup the method to be invoked
-		   RPCRemoteImpl method = services.get(rpcid);
+		   rpcstop = services.get(rpcid);
 		   // - invoke the method and pass the param
-		   byte[] returnvalue = method.invoke(req);
+		   byte[] rep = rpcstop.invoke(req);
 		   // - encapsulate return value 
-		   byte[] rep = RPCUtils.encapsulate(rpcid, returnvalue);
+		   replymsg = new Message(RPCUtils.encapsulate(rpcid, rep));
 		   // - send back the message containing the RPC reply
-		   replymsg = new Message(rep);
 		   connection.send(replymsg);
 		  
 		   
