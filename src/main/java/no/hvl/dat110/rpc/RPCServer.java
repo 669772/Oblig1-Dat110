@@ -57,7 +57,6 @@ public class RPCServer {
 		   // - send back the message containing the RPC reply
 		   connection.send(replymsg);
 		  
-		   
 //		   if (true)
 //				throw new UnsupportedOperationException(TODO.method());
 		   

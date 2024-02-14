@@ -28,6 +28,7 @@ public class DisplayImpl extends RPCRemoteImpl {
 		
 		returnval = RPCUtils.marshallVoid();
 				
+		
 //		if (true)
 //			throw new UnsupportedOperationException(TODO.method());
 		

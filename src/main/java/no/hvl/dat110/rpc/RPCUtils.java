@@ -33,6 +33,7 @@ public class RPCUtils {
 		
 		byte[] payload = null;
 		
+		
 		// TODO - START
 		
 		payload = new byte[rpcmsg.length - 1];

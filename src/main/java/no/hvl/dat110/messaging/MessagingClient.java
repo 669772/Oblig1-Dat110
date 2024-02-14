@@ -28,7 +28,6 @@ public class MessagingClient {
 
 		MessageConnection connection = null;
 		
-		
 		// TODO - START
 		// connect to messaging server using a TCP socket
 		// create and return a corresponding messaging connection
