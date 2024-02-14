@@ -40,6 +40,7 @@ public class Controller  {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 		// read value from sensor using RPC and write to display using RPC
 		for(int i = 0; i < N; i++) {
 			int val = sensor.read();

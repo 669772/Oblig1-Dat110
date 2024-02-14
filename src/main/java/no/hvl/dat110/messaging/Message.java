@@ -10,6 +10,7 @@ public class Message {
 	// construction a Message with the data provided
 	public Message(byte[] data) {
 
+		
 		// TODO - START
 
 		if ((!data.equals(null)) && (data.length <= 127 && data.length >= 0)) {

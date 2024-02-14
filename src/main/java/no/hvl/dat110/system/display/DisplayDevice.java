@@ -23,6 +23,7 @@ public class DisplayDevice {
 		displayserver.run();
 		
 		displayserver.stop();
+		
 //		if (true)
 //			throw new UnsupportedOperationException(TODO.method());
 		
