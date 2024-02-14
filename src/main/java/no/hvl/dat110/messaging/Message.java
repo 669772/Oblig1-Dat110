@@ -15,7 +15,6 @@ public class Message {
 		if ((!data.equals(null)) && (data.length <= 127 && data.length >= 0)) {
 			this.data = data;
 		}
-
 //		if (true)
 //			throw new UnsupportedOperationException(TODO.constructor("Message"));
 		// TODO - END

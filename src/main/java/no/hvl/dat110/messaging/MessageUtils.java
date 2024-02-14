@@ -16,6 +16,7 @@ public class MessageUtils {
 		byte[] segment = null;
 		byte[] data;
 		
+		
 		// TODO - START
 		segment = new byte[SEGMENTSIZE];
 		
